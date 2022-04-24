@@ -8,7 +8,7 @@ import About from "./../About/About.jsx";
 import Projects from "./../Projects/Projects.jsx";
 import Skills from "./../Skills/Skills.jsx";
 import Contact from "./../Contact/Contact.jsx";
-
+import GoHome from "./../GoHome/GoHome.jsx";
 function App() {
   return (
     <div>
@@ -20,6 +20,7 @@ function App() {
           <Route path="/projects" exact component={Projects}/>
           <Route path="/skills" exact component={Skills}/>
           <Route path="/contact" exact component={Contact}/>
+          <GoHome/>
         </div>
       </HashRouter>
     </div>
