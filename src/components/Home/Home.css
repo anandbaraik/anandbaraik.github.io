@@ -1,0 +1,106 @@
+.home-container{
+    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.79%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 100px 10%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header-text > h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin: 10px;
+}
+.header-text > p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e5e5e5;
+    margin: 10px;
+}
+.header-btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 35px 10px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px 36px;
+    height: 52px;
+    text-decoration: none;
+    left: 0;
+    top: 0px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 36px;
+    margin: 4px;
+}
+.btn-white{
+    background-color: #fff;
+    color: #112d57;
+}
+.btn-transparent{
+    border: 1px solid #fff;
+    color: #fff;
+    box-sizing: border-box;
+}
+.btn:hover{
+    box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease-in-out;
+}
+.btn-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.splash-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-anim{
+    margin-bottom: -80px;
+}
+
+/* For small height screen sizes */
+@media only screen and (max-height: 550px) {
+    .home-anim {
+        width: 400px;
+    }
+}
+
+/* For small width screens */
+@media only screen and (max-width: 640px) {
+    .home-anim {
+        width: 80%;
+        align-self: center;
+        margin-bottom: -20px;
+    }
+    .header-btns {
+        margin: 10px 10px 35px 10px;
+    }
+}
