@@ -10,31 +10,36 @@ const Modal = ({ closeModal }) => {
                 className='modal-container'
             >
                 <div className='upper-section'>
-                    <h1>Welcome to my portfolio!</h1>
+                    <h1>Contact for services!</h1>
                     <p onClick={closeModal} className='close'>
                         &times;
                     </p>
                 </div>
                 <div className='middle-section'>
                     <h3>
-                        I offer below services-
+                        I Offer Quality Services and Solutions
                     </h3>
                     <p>
-                        Full stack web app development
+                        Contact me for below services..👇
                     </p>
-                    <p>
-                        Mobile application development
-                    </p>
+                    <ul>
+                        <li>
+                            Web Application Development
+                        </li>
+                        <li>
+                            Mobile Development
+                        </li>
+                    </ul>
                 </div>
                 <div className='lower-section'>
-                    <a onClick={closeModal} className='modal-btn btn-red'>
+                    <a onClick={closeModal} className='modal-btn btn-close'>
                         Close
                     </a>
                     <a
-                        href='https://anandbaraik.github.io/react-portfolio'
+                        href='https://peerlist.io/anandbaraik'
                         target='_blank'
                         rel='noreferrer'
-                        className='modal-btn btn-green'
+                        className='modal-btn btn-contact'
                     >
                         Contact
                     </a>
