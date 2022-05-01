@@ -28,10 +28,11 @@
 }
 .upper-section > h1{
     margin: 0;
+    font-size: 1.4rem;
 }
 .close{
     margin: 0;
-    font-size: 1.9em;
+    font-size: 1.4rem;
     cursor: pointer;
     display: flex;
     flex-direction: column;
