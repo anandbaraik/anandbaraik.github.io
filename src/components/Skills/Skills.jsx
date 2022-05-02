@@ -2,7 +2,7 @@ import React from 'react'
 import "./Skills.css";
 function Skills() {
   return (
-    <div>Skills</div>
+    <div className='section-container'>Skills</div>
   )
 }
 

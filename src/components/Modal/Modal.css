@@ -46,6 +46,10 @@
 .middle-section > * {
     margin: 5px 0;
 }
+.middle-section > h3{
+    font-size: 1rem;
+}
+
 .lower-section{
     display: flex;
     flex-direction: row-reverse;
