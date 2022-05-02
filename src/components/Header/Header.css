@@ -1,0 +1,20 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    align-self: center;
+}
+.header-container > h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.9rem;
+    line-height: 57px;
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+.header-container > p{
+    font-family: 'Montserrat', sans-serif;
+}
