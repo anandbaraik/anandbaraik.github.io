@@ -14,6 +14,7 @@
     text-align: center;
     margin: 0;
     color: #000;
+    letter-spacing: 0.2px;
 }
 .header-container > p{
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +26,7 @@
     margin: 10px 0px;
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width: 640px){
     .header-container{
         width: 80%;
     }
