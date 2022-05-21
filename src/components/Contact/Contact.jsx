@@ -22,33 +22,33 @@ function Contact() {
             placeholder='Your Email Id' name='email' required/>
           <textarea type="text" placeholder='Your Message' name='message'
             className='input-box body-input' required></textarea>
-          <button type="submit" class="contact-btn">Send Email</button>
+          <button type="submit" className="contact-btn">Send Email</button>
         </form>
       </div>
       <div className='social-icons-container'>
         <a href="https://github.com/anandbaraik"
           className='social-icon'
-          target="_blank">
+          target="_blank" rel="noreferrer">
           <img src={gitHub} alt='github'/>
         </a>
         <a href="https://www.linkedin.com/in/anand-baraik/" 
           className='social-icon'
-          target="_blank">
+          target="_blank" rel="noreferrer">
           <img src={linkedIn} alt='linkedin'/>
         </a>
         <a href="https://peerlist.io/anandbaraik" 
           className='social-icon'
-          target="_blank">
+          target="_blank" rel="noreferrer">
           <img src={web} alt='web'/>
         </a>
         <a href="https://medium.com/@anandbaraik"
           className='social-icon'
-          target="_blank">
+          target="_blank" rel="noreferrer">
           <img src={medium} alt='medium'/>
         </a>
         <a href="https://www.instagram.com/anand__babu/"
           className='social-icon'
-          target="_blank">
+          target="_blank" rel="noreferrer">
           <img src={instaGram} alt='instagram'/>
         </a>
       </div>
