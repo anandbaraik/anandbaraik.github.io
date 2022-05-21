@@ -17,9 +17,11 @@ function Contact() {
         subHeading="Interested to collaborate? Feel free to drop me an email.">
       </Header>
       <div className='contact-form-container'>
-        <form className='contact-form' method='POST' action=''>
-          <input type="emai" className='input-box email-input' placeholder='Your Email Id' name=''/>
-          <textarea type="text" placeholder='Message' name='' className='input-box body-input'></textarea>
+        <form className='contact-form' method='POST' action='https://formspree.io/f/mdobenlw'>
+          <input type="email" className='input-box email-input' 
+            placeholder='Your Email Id' name='email' required/>
+          <textarea type="text" placeholder='Your Message' name='message'
+            className='input-box body-input' required></textarea>
           <button type="submit" class="contact-btn">Send Email</button>
         </form>
       </div>
