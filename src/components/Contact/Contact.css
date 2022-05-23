@@ -69,3 +69,11 @@
         width: 80%;
     }
 }
+.alert{
+    text-align: center;
+    padding: 10px;
+    font-size: 0.875rem;;
+    background-color: hsl(250deg 69% 61%);
+    color: #fff;
+    border-radius: 1.1rem;
+}

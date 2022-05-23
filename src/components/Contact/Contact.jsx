@@ -8,8 +8,14 @@ import instaGram from "./../../assets/in.png";
 import linkedIn from "./../../assets/li.png";
 import medium from "./../../assets/me.png";
 import web from "./../../assets/web.png";
-
+import { useForm, ValidationError } from '@formspree/react';
 function Contact() {
+  const [state, handleSubmit] = useForm("mdobenlw");
+  if (state.succeeded){
+      setTimeout(() => {
+        document.getElementById("contact-form").reset();
+      }, 2500)
+  }
   return (
     <div className='section-container'>
       <Header 
@@ -17,12 +23,32 @@ function Contact() {
         subHeading="Interested to collaborate? Feel free to drop me an email.">
       </Header>
       <div className='contact-form-container'>
-        <form className='contact-form' method='POST' action='https://formspree.io/f/mdobenlw'>
+        {
+            state.succeeded && 
+            <div className='alert'>
+                Thanks for the submission!
+            </div>
+        }
+        <form className='contact-form' onSubmit={handleSubmit}
+        id='contact-form'>
           <input type="email" className='input-box email-input' 
             placeholder='Your Email Id' name='email' required/>
+            <ValidationError 
+              prefix="Email" 
+              field="email"
+              errors={state.errors}
+            />
           <textarea type="text" placeholder='Your Message' name='message'
             className='input-box body-input' required></textarea>
-          <button type="submit" className="contact-btn">Send Email</button>
+          <ValidationError 
+          prefix="Message" 
+          field="message"
+          errors={state.errors}
+        />
+          <button type="submit" className="contact-btn"
+          disabled={state.submitting}>
+            Send Email
+          </button>
         </form>
       </div>
       <div className='social-icons-container'>
