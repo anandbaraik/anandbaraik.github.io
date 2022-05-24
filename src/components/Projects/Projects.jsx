@@ -17,14 +17,12 @@ function Projects() {
           projectName,
           projectDescription,
           imageUrl,
-          videoUrl,
           projectUrl
         }, index) => {
           return (<ProjectCard key={index}
           projectName={projectName}
           projectDescription={projectDescription}
           imageUrl={imageUrl}
-          videoUrl={videoUrl}
           projectUrl={projectUrl}
         />);
         })
