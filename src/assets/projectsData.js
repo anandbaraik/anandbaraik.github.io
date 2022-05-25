@@ -16,7 +16,7 @@ export const projectsData = [
     {
         projectName: 'Flexbox Cheatsheet',
         projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
+            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. you can use it as a refrence.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/170092222-51a7ea8d-8036-4a12-b0ee-1067c974a4e3.png',
         projectUrl: 'https://flex-box-cheatsheet.netlify.app/',
     },
@@ -30,7 +30,7 @@ export const projectsData = [
     {
         projectName: 'Portfolio Website',
         projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+            'As a developer, we should definitely have our own portfolio website. There are endless benefits of it. so here is one of me!',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/170092193-d24327ca-f035-4074-8fde-57238ef570d6.png',
         projectUrl: 'https://anandbaraik.github.io/react-portfolio/',
     },
