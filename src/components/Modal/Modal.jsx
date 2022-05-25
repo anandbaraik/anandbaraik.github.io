@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Modal.css';
-
+import { Link } from "react-router-dom";
 const Modal = ({ closeModal }) => {
     return ReactDOM.createPortal(
         <div onClick={closeModal} className='modal-overlay'>
@@ -35,14 +35,9 @@ const Modal = ({ closeModal }) => {
                     <a onClick={closeModal} className='modal-btn btn-close'>
                         Close
                     </a>
-                    <a
-                        href='https://peerlist.io/anandbaraik'
-                        target='_blank'
-                        rel='noreferrer'
-                        className='modal-btn btn-contact'
-                    >
+                    <Link className="modal-btn btn-contact" to="/contact">
                         Contact
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>,
