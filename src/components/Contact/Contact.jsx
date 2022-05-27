@@ -8,6 +8,7 @@ import instaGram from "./../../assets/in.png";
 import linkedIn from "./../../assets/li.png";
 import medium from "./../../assets/me.png";
 import web from "./../../assets/web.png";
+import hashnode from "./../../assets/hashnode.png";
 import { useForm, ValidationError } from '@formspree/react';
 function Contact() {
   const [state, handleSubmit] = useForm("mdobenlw");
@@ -66,6 +67,11 @@ function Contact() {
           className='social-icon'
           target="_blank" rel="noreferrer">
           <img src={web} alt='web'/>
+        </a>
+        <a href="https://anandbaraik.hashnode.dev/"
+          className='social-icon'
+          target="_blank" rel="noreferrer">
+          <img src={hashnode} alt='hashnode'/>
         </a>
         <a href="https://medium.com/@anandbaraik"
           className='social-icon'
