@@ -21,6 +21,13 @@ export const projectsData = [
         projectUrl: 'https://anandbaraik.github.io/kaun-banega-crorepati/',
     },
     {
+        projectName: 'Google Search 2.0',
+        projectDescription:
+            'Google search 2.0 made with react.js and tailwind css. made this to learn react context hook and api call',
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/172677621-420d78ca-fb8d-41b0-95f2-8f205e1ce812.png',
+        projectUrl: 'https://anandbaraik.github.io/google-search-clone',
+    },
+    {
         projectName: 'FlashType',
         projectDescription:
             'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
