@@ -23,7 +23,7 @@ export const projectsData = [
     {
         projectName: 'Google Search 2.0',
         projectDescription:
-            'Google search 2.0 made with react.js and tailwind css. made this to learn react context hook and api call',
+            'Google search 2.0 made with react.js and tailwind css. used RAPID API to fetch search data and Context API to manage application state.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/172677621-420d78ca-fb8d-41b0-95f2-8f205e1ce812.png',
         projectUrl: 'https://anandbaraik.github.io/google-search-clone',
     },
