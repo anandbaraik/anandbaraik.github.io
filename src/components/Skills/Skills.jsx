@@ -24,7 +24,7 @@ function Skills() {
         toAddress="/contact"></Footer>
         <div className='skills-vector-frame'>
           <img src={skillsVector} alt="skill-vector"
-          className='skills-vector'
+          className='skills-vector' loading="lazy"
           />
         </div>
     </div>

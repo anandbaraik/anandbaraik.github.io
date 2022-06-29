@@ -36,7 +36,7 @@ class Home extends Component {
                 </Link>
             </div>
             <div className="splash-image">
-                <img src={homeAnime} alt="animation" className="home-anim"/>
+                <img src={homeAnime} alt="animation" loading="lazy" className="home-anim"/>
             </div>
         </div>
     )

@@ -20,6 +20,7 @@ class GoHome extends Component {
                 <img src={whiteBtn ? homeIconBlack : homeIconWhite}
                     className="home-icon"
                     alt="Home-Icon"
+                    loading="lazy"
                 />
             </button>
         )

@@ -56,32 +56,32 @@ function Contact() {
         <a href="https://github.com/anandbaraik"
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={gitHub} alt='github'/>
+          <img src={gitHub} alt='github' loading="lazy"/>
         </a>
         <a href="https://www.linkedin.com/in/anand-baraik/" 
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={linkedIn} alt='linkedin'/>
+          <img src={linkedIn} alt='linkedin' loading="lazy"/>
         </a>
         <a href="https://peerlist.io/anandbaraik" 
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={web} alt='web'/>
+          <img src={web} alt='web' loading="lazy"/>
         </a>
         <a href="https://anandbaraik.hashnode.dev/"
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={hashnode} alt='hashnode'/>
+          <img src={hashnode} alt='hashnode' loading="lazy"/>
         </a>
         <a href="https://medium.com/@anandbaraik"
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={medium} alt='medium'/>
+          <img src={medium} alt='medium' loading="lazy"/>
         </a>
         <a href="https://www.instagram.com/anand__babu/"
           className='social-icon'
           target="_blank" rel="noreferrer">
-          <img src={instaGram} alt='instagram'/>
+          <img src={instaGram} alt='instagram' loading="lazy"/>
         </a>
       </div>
       <Footer 
@@ -92,6 +92,7 @@ function Contact() {
       <div className='vector-frame'>
         <img src={contactVector}
           alt="contact"
+          loading="lazy"
           className='about-vector'
         />
       </div>

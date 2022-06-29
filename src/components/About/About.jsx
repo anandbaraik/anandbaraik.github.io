@@ -27,6 +27,7 @@ function About() {
                 src={aboutAnime}
                 alt="about-anime"
                 className="about-anime"
+                loading="lazy"
             />
         </div>
       </div>
@@ -39,6 +40,7 @@ function About() {
         <img src={aboutVector}
           alt="about"
           className='about-vector'
+          loading="lazy"
         />
       </div>
     </div>
