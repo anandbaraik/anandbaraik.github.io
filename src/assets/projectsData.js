@@ -6,6 +6,17 @@ export const projectsData = [
         imageUrl: 'https://user-images.githubusercontent.com/31516195/170092228-6081ec90-a6d3-410d-ba16-3d1e462b317e.png',
         projectUrl: 'https://anandbaraik.github.io/nameit/',
     },
+
+    {
+        projectName: 'Health Gyan',
+        projectDescription:
+            'Do you want to get fit by exercising then you are at the right place where you can get all the exercises at single place, visit exercise details & get exercise videos, similar equipment & muscles exercise.in short `Sweat, Smile and Repeat to get healthy body & mind`',
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/176998806-3b76b68c-bb02-4f39-adeb-38ad58f8086a.png',
+        projectUrl: 'https://health-gyan.vercel.app/',
+    },
+
+
+
     {
         projectName: 'Wordle Replica',
         projectDescription:
