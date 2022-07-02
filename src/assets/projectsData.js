@@ -1,22 +1,11 @@
 export const projectsData = [
     {
-        projectName: 'Name It!',
-        projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: 'https://user-images.githubusercontent.com/31516195/170092228-6081ec90-a6d3-410d-ba16-3d1e462b317e.png',
-        projectUrl: 'https://anandbaraik.github.io/nameit/',
-    },
-
-    {
         projectName: 'Health Gyan',
         projectDescription:
             'Do you want to get fit by exercising then you are at the right place where you can get all the exercises at single place, visit exercise details & get exercise videos, similar equipment & muscles exercise.in short `Sweat, Smile and Repeat to get healthy body & mind`',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/176998806-3b76b68c-bb02-4f39-adeb-38ad58f8086a.png',
         projectUrl: 'https://health-gyan.vercel.app/',
     },
-
-
-
     {
         projectName: 'Wordle Replica',
         projectDescription:
@@ -36,7 +25,7 @@ export const projectsData = [
         projectDescription:
             'Google search 2.0 made with react.js and tailwind css. used RAPID API to fetch search data and Context API to manage application state.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/172677621-420d78ca-fb8d-41b0-95f2-8f205e1ce812.png',
-        projectUrl: 'https://anandbaraik.github.io/google-search-clone',
+        projectUrl: 'https://google-search-clone-anandbaraik.vercel.app',
     },
     {
         projectName: 'FlashType',
@@ -44,6 +33,13 @@ export const projectsData = [
             'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/170092207-a543be4d-547b-412f-8ef0-501ca3e05dfc.png',
         projectUrl: 'https://anandbaraik.github.io/flashtype/',
+    },
+    {
+        projectName: 'Name It!',
+        projectDescription:
+            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/170092228-6081ec90-a6d3-410d-ba16-3d1e462b317e.png',
+        projectUrl: 'https://anandbaraik.github.io/nameit/',
     },
     {
         projectName: 'PokeDex',
