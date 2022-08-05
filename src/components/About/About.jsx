@@ -9,13 +9,13 @@ function About() {
     <div className='section-container'>
       <Header 
         heading="About Me"
-        subHeading="Full Stack Developer | Blogger">
+        subHeading="Full Stack Engineer | Blogger">
       </Header>
       <div className='about-main'>
         <div className='about-main-left'>
             <h3 className='about-sub-heading'>Developer</h3>
             <p className='about-sub-heading-details'>
-              I’m a self-taught full stack developer. building software for people and businesses. I love building software that solves real-world problems, add value to society through technology.
+              I’m a self-taught <u>full stack engineer</u>. building software for people and businesses. I love building software that solves real-world problems, add value to society through technology.
             </p>
             <h3 className='about-sub-heading'>Blogger</h3>
             <p className='about-sub-heading-details'>
