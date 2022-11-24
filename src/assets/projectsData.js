@@ -49,6 +49,13 @@ export const projectsData = [
         projectUrl: 'https://anandbaraik.github.io/pokedex/',
     },
     {
+        projectName: 'Anandfolio',
+        projectDescription:
+            'Built this portfoio during practicing HTML & CSS. this portfolio helped me to get into neogcamp \'23 cohort',
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/188324601-78b0b8d4-ddca-43f2-8d3e-a6ef0846e770.png',
+        projectUrl: 'https://anandbaraik-folio.netlify.app/',
+    },
+    {
         projectName: 'Portfolio Website',
         projectDescription:
             'As a developer, we should definitely have our own portfolio. There are endless benefits of it. so here is one of me! made it using react.js, html & css.',
@@ -68,19 +75,5 @@ export const projectsData = [
             'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. you can use it as a refrence.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/170092222-51a7ea8d-8036-4a12-b0ee-1067c974a4e3.png',
         projectUrl: 'https://flex-box-cheatsheet.netlify.app/',
-    },
-    {
-        projectName: 'Morse Code Translator',
-        projectDescription:
-            'During school day i was a huge fan of morse code & tried to learn but could not get my head around this. so made this now. well are you a fan of morse code? Talk to your friends using morse code. Use the translator to convert your text from English to morse code.',
-        imageUrl: 'https://user-images.githubusercontent.com/31516195/152009629-8af0642e-f400-4504-a46a-f7cb83a9aa73.png',
-        projectUrl: 'https://translation-to-morse-code.netlify.app/',
-    },
-    {
-        projectName: 'Emoji Dictionary',
-        projectDescription:
-            'This app is a basic one. you can search the meaning of emojis. made this applcation when i was learning react.js',
-        imageUrl: 'https://user-images.githubusercontent.com/31516195/152009632-d7d178cb-bb51-4cef-8b60-338c8520db6d.png',
-        projectUrl: 'https://zw4qb.csb.app/',
-    },
+    }
 ];

@@ -28,20 +28,12 @@ export const skillList = [
         skillUrl: 'https://user-images.githubusercontent.com/31516195/170096347-7a6e9142-2aeb-4a1c-bcbb-da12a21d3aca.png',
     },
     {
-        skillName: 'Java',
-        skillUrl: 'https://user-images.githubusercontent.com/31516195/170096304-f4dfdc9e-5334-4ab2-bc62-95141ac33be6.png',
-    },
-    {
         skillName: 'Laravel',
         skillUrl: 'https://user-images.githubusercontent.com/31516195/170096313-9e52f598-1d07-4689-916c-2b9ee3453227.png',
     },
     {
         skillName: 'MongoDB',
         skillUrl: 'https://user-images.githubusercontent.com/31516195/170096317-6eabc365-6fb1-41e2-b699-ea18f202a145.png',
-    },
-    {
-        skillName : 'Dart',
-        skillUrl: 'https://user-images.githubusercontent.com/31516195/170096298-e906b147-e83f-4874-8467-3b038e399efe.png'
     },
     {
         skillName : 'Mysql',
