@@ -1,5 +1,11 @@
 export const projectsData = [
     {
+        projectName: 'Talkible',
+        projectDescription: `You have problems then I have solution for you! talkible, It's an AI assistant where you can talk with an AI. You can ask any questions be it coding, explaining code snippets, solving maths, solving life problems, writting essay etc among others. It doesn't store any data & it's free as well so raho befikar aur talk your heart out with 'talkible'.`,
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/211374708-6ebafca6-9d64-4f19-afac-d033c9b6d60f.png',
+        projectUrl: 'https://talkible.vercel.app/',
+    },
+    {
         projectName: 'Health Gyan',
         projectDescription:
             'Do you want to get fit by exercising then you are at the right place where you can get all the exercises at single place, visit exercise details & get exercise videos, similar equipment & muscles exercise.in short `Sweat, Smile and Repeat to get healthy body & mind`',
@@ -68,12 +74,5 @@ export const projectsData = [
             'This sticky note is made to jot down our thoughts, it uses localstorage to store notes. we can jot down things & acess it anywhere online & offline as it is PWA application.',
         imageUrl: 'https://user-images.githubusercontent.com/31516195/150564057-3f11be3e-d49d-4cc3-a729-d9480a4b55b2.png',
         projectUrl: 'https://sticky-note-pwa.netlify.app/',
-    },
-    {
-        projectName: 'Flexbox Cheatsheet',
-        projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. you can use it as a refrence.',
-        imageUrl: 'https://user-images.githubusercontent.com/31516195/170092222-51a7ea8d-8036-4a12-b0ee-1067c974a4e3.png',
-        projectUrl: 'https://flex-box-cheatsheet.netlify.app/',
     }
 ];
