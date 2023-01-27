@@ -19,30 +19,30 @@ function Contact() {
   }
   return (
     <div className='section-container'>
-      <Header 
+      <Header
         heading="Get in touch."
         subHeading="Interested to collaborate? Feel free to drop me an email.">
       </Header>
       <div className='contact-form-container'>
         {
-            state.succeeded && 
+            state.succeeded &&
             <div className='alert'>
                 Thanks for the submission!
             </div>
         }
         <form className='contact-form' onSubmit={handleSubmit}
         id='contact-form'>
-          <input type="email" className='input-box email-input' 
+          <input type="email" className='input-box email-input'
             placeholder='Your Email Id' name='email' required/>
-            <ValidationError 
-              prefix="Email" 
+            <ValidationError
+              prefix="Email"
               field="email"
               errors={state.errors}
             />
           <textarea type="text" placeholder='Your Message' name='message'
             className='input-box body-input' required></textarea>
-          <ValidationError 
-          prefix="Message" 
+          <ValidationError
+          prefix="Message"
           field="message"
           errors={state.errors}
         />
@@ -58,12 +58,12 @@ function Contact() {
           target="_blank" rel="noreferrer">
           <img src={gitHub} alt='github' loading="lazy"/>
         </a>
-        <a href="https://www.linkedin.com/in/anand-baraik/" 
+        <a href="https://www.linkedin.com/in/anandbaraik/"
           className='social-icon'
           target="_blank" rel="noreferrer">
           <img src={linkedIn} alt='linkedin' loading="lazy"/>
         </a>
-        <a href="https://peerlist.io/anandbaraik" 
+        <a href="https://peerlist.io/anandbaraik"
           className='social-icon'
           target="_blank" rel="noreferrer">
           <img src={web} alt='web' loading="lazy"/>
@@ -84,7 +84,7 @@ function Contact() {
           <img src={instaGram} alt='instagram' loading="lazy"/>
         </a>
       </div>
-      <Footer 
+      <Footer
         phrase="Read more "
         link="about me."
         toAddress="/about">
