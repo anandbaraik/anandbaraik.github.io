@@ -7,7 +7,7 @@ import ProjectCard from "./ProjectCard.jsx";
 function Projects() {
   return (
     <div className='section-container'>
-    <Header 
+    <Header
         heading="My Projects."
         subHeading="Here are a few cool things I've worked on, do check them out!">
       </Header>
@@ -28,7 +28,7 @@ function Projects() {
         })
       }
       </div>
-      <Footer 
+      <Footer
         phrase="Check out "
         link="my skills!"
         toAddress="/skills">

@@ -4,7 +4,7 @@ import "./Home.css";
 import homeAnime from "./../../assets/home_anime.gif"
 import Modal from "./../Modal/Modal.jsx";
 class Home extends Component {
-    
+
     state = {showModal:false};
     componentDidMount(){
         setTimeout(() =>{
@@ -24,7 +24,7 @@ class Home extends Component {
                     Welcome to my portfolio!
                 </h1>
                 <p>
-                    This is Anand Baraik, a <u>full stack engineer</u>.
+                    This is Anand Baraik, a <u>software engineer</u>.
                 </p>
             </div>
             <div className="header-btns">

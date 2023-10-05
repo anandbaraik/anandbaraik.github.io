@@ -27,7 +27,10 @@ const Modal = ({ closeModal }) => {
                             Web Application Development
                         </li>
                         <li>
-                            Mobile Development
+                            Custom Software Development
+                        </li>
+                        <li>
+                            Software Prototyping
                         </li>
                     </ul>
                 </div>

@@ -1,9 +1,15 @@
 export const projectsData = [
     {
         projectName: 'Talkible',
-        projectDescription: `You have problems then I have solution for you! talkible, It's an AI assistant where you can talk with an AI. You can ask any questions be it coding, explaining code snippets, solving maths, solving life problems, writting essay etc among others. It doesn't store any data & it's free as well so raho befikar aur talk your heart out with 'talkible'.`,
-        imageUrl: 'https://user-images.githubusercontent.com/31516195/211374708-6ebafca6-9d64-4f19-afac-d033c9b6d60f.png',
+        projectDescription: `A new age social media where you can connect, share, and engage in a vibrant social network.`,
+        imageUrl: 'https://user-images.githubusercontent.com/31516195/252760801-7035e590-6138-41ef-89de-ca8c3a3bc001.png',
         projectUrl: 'https://talkible.vercel.app/',
+    },
+    {
+        projectName: 'Bucher',
+        projectDescription: `Bücher is an e-commerce app to buy books online. It has features like cart & wishlist management, payment integration, and all the primary feature that are required in an e-commerce app.`,
+        imageUrl: 'https://github-production-user-asset-6210df.s3.amazonaws.com/31516195/273011003-c29b4e28-b8ec-4ac0-9032-45554dae3f08.png',
+        projectUrl: 'https://bucher-store.vercel.app/',
     },
     {
         projectName: 'Health Gyan',
